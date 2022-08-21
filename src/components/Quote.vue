@@ -1,6 +1,6 @@
 <template>
   <div class="col-sm-6 col-md-4 col-lg-3">
-    <div name="quotePanel" class="panel panel-default" v-bind:style="{ 'background-color': color }">
+    <div name="quotePanel" data-testid="quote_container" class="panel panel-default" v-bind:style="{ 'background-color': color }">
       <div class="panel-body quotes-body quote">
         <slot></slot>
       </div>
